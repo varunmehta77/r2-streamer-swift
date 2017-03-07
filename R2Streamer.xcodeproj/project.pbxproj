@@ -64,12 +64,12 @@
 		59501DF41E2FB16600D1B4BF /* Seekable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Seekable.swift; sourceTree = "<group>"; };
 		59501DF51E2FB16600D1B4BF /* ZipInputStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZipInputStream.swift; sourceTree = "<group>"; };
 		59501DF81E2FB16600D1B4BF /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
-		59501DF91E2FB16600D1B4BF /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		59501DF91E2FB16600D1B4BF /* ioapi.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = ioapi.c; sourceTree = "<group>"; };
 		59501DFA1E2FB16600D1B4BF /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
 		59501DFB1E2FB16600D1B4BF /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
-		59501DFC1E2FB16600D1B4BF /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		59501DFC1E2FB16600D1B4BF /* unzip.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = unzip.c; sourceTree = "<group>"; };
 		59501DFD1E2FB16600D1B4BF /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
-		59501DFE1E2FB16600D1B4BF /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		59501DFE1E2FB16600D1B4BF /* zip.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = zip.c; sourceTree = "<group>"; };
 		59501DFF1E2FB16600D1B4BF /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
 		59501E001E2FB16600D1B4BF /* Zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zip.h; sourceTree = "<group>"; };
 		59501E011E2FB16600D1B4BF /* ZipArchive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZipArchive.swift; sourceTree = "<group>"; };
@@ -596,6 +596,7 @@
 				59501DE31E2FB0D700D1B4BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		59501DE41E2FB0D700D1B4BF /* Build configuration list for PBXNativeTarget "R2StreamerTests" */ = {
 			isa = XCConfigurationList;
@@ -604,6 +605,7 @@
 				59501DE61E2FB0D700D1B4BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
