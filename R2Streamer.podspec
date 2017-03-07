@@ -5,6 +5,7 @@ Pod::Spec.new do |s|
  s.description  = <<-DESC
                   Written in Swift.
                   The Best Open Source ePub Reader.
+		  ePub Reader with mp3, video playing.
                   DESC
  s.homepage         = "https://github.com/varunmehta77/r2-streamer-swift.git"
  s.license          = 'BSD'
@@ -25,10 +26,10 @@ Pod::Spec.new do |s|
 
  s.libraries = 'z'
  s.preserve_paths = 'Sources/ZipArchive/minizip/module.modulemap'
- s.requires_arc = true 
+ s.requires_arc = true
 
  s.dependency 'AEXML'
  s.dependency 'ObjectMapper', '~> 2.2'
  s.dependency 'GCDWebServer', '~> 3.3.3'
-          
-end      
+
+end
